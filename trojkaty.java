@@ -1,5 +1,9 @@
-/**
-* To jest program do rozpoznawania trójkąta./
+/*
+ optymalizacja-1
+ 
+ To jest program do rozpoznawania trójkąta.
+ To jest program do rozpoznawania trójkąta.
+main
 */
 
 class Trojkaty {
@@ -15,12 +19,17 @@ class Trojkaty {
                   if (b + c <= a) return false;
                   return true;
     public static void jakiTrojkat(float a, float b, float c){
+ optymalizacja-1
+         if (a == b && b == c) {
+             System.out.println("Trójkąt równoboczny"); 
+
                if (a == b && b == c && a == c) {
                     System.out.println("Trójkąt równoboczny");
                 }
                 if (a == b || b == c || a == c) {
                     System.out.println("Trójkąt równoramienny");
                 }
+ main
          }
          // TODO: tutaj trzeba bedzie dopisac inne przypadki
     }
